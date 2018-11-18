@@ -1,22 +1,11 @@
-<?php
-$cin = isset($_POST['cin']) ? $_POST['cin'] : NULL;
-$nom = isset($_POST['nom']) ? $_POST['nom'] : NULL;
-$prenom = isset($_POST['prenom']) ? $_POST['prenom'] : NULL;
-$nombre = isset($_POST['nombre']) ? $_POST['nombre'] : NULL;
-$kaskrout_kifech = isset($_POST['kaskrout_kifech']) ? $_POST['kaskrout_kifech'] : NULL;
-$harissa = isset($_POST['harissa']) ? $_POST['harissa'] : NULL;
-$salade = isset($_POST['salade']) ? $_POST['salade'] : NULL;
-$mayo = isset($_POST['mayo']) ? $_POST['mayo'] : NULL;
-$ketchup = isset($_POST['ketchup']) ? $_POST['ketchup'] : NULL;
-$adresse = isset($_POST['adresse']) ? $_POST['adresse'] : NULL;
-?>
+
 
 <?php
 $cin = isset($_POST['cin']) ? $_POST['cin'] : NULL;
 $nom = isset($_POST['nom']) ? $_POST['nom'] : NULL;
 $prenom = isset($_POST['prenom']) ? $_POST['prenom'] : NULL;
 $nombre = isset($_POST['nombre']) ? $_POST['nombre'] : NULL;
-$kaskrout_kifech = isset($_POST['kaskrout_kifech']) ? $_POST['kaskrout_kifech'] : NULL;
+$choix = isset($_POST['choix']) ? $_POST['choix'] : NULL;
 $harissa = isset($_POST['harissa']) ? $_POST['harissa'] : NULL;
 $salade = isset($_POST['salade']) ? $_POST['salade'] : NULL;
 $mayo = isset($_POST['mayo']) ? $_POST['mayo'] : NULL;
